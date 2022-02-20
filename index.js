@@ -24,6 +24,7 @@ app.get('/', (req, res)=>{
     console.log('finally done')
 })
 
+console.log(uri)
 app.listen(port, ()=>{
     console.log('Running server is on')
 })
