@@ -21,6 +21,7 @@ client.connect(err => {
 
 app.get('/', (req, res)=>{
     res.send('Running My crud operation');
+    console.log('finally done')
 })
 
 app.listen(port, ()=>{
