@@ -17,6 +17,7 @@ client.connect(err => {
   client.close();
 });
 
+console.log(uri)
 
 
 app.get('/', (req, res)=>{
